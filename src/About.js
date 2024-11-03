@@ -24,7 +24,7 @@ const About = () => {
                 />
                 <img
                     src="/img/pattern.jpg"
-                    alt="Image of an Islamic sacred/infinite geometric pattern"
+                    alt="Islamic sacred/infinite geometric pattern"
                     width="24.5%"
                     height="400em"
                 />
