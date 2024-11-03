@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+h1, h2{
+  padding-left: 50px;
+}
+
+p {
+  padding-left: 100px;
+}
+
+/* Restriction to exclude paragraphs within .home-page */
+.home-page p {
+  padding: 0;
+}
+
+/* Below is used to make the unordered list look more like a nav.
+For example, without list-style: none, a bullet point appears on far left*/
+ul {
+  list-style: none;
+}
+nav {
+  padding-left: 20px;
+  border: 10px solid white;
+  padding: 10px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.link1 {
+  margin: 75px;
+  text-decoration: none;
+  color: white;
+}
+
+.link2 {
+  margin: 75px;
+  text-decoration: none;
+  color: white;
+}
+
+.link3 {
+  margin: 75px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Existing Styles */
+body {
+  border: 10px solid black;
+  padding-bottom: 25%;
+}
+
+.centify {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Basic navbar styling */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav {
+  padding-left: 20px;
+  border: 10px solid white;
+  padding: 10px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+img {
+  padding: 25px;
+}
+
+.pad-left{
+  padding-left: 10%;
+}
+
+#underline {
+  text-decoration: underline;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Styling the form container */
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input field styling */
+form input[type="text"],
+form input[type="email"],
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form select:focus {
+  border-color: #888;
+  outline: none;
+}
+
+/* Radio button styling */
+form input[type="radio"] {
+  margin-right: 10px;
+}
+
+form .radio-group {
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Form data display section */
+#formDataDisplay {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Extra styles for centering content */
+.centify {
+  text-align: center;
+}
+
+/* Ensure the form and display containers are responsive */
+@media (max-width: 600px) {
+  form, #formDataDisplay {
+    width: 90%;
+  }
+}
+
+/* Form styling for lab5.html */
+form {
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Styling for the results section */
+#resultsSection {
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#resultsSection p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #444;
+}
+
