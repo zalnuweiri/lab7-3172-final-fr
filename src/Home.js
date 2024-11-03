@@ -1,8 +1,7 @@
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const Home = () => {
-    const [views, setViews] = useState(0);
 
     return (
         <div className="home-page">

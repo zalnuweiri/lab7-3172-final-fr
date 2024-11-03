@@ -20,8 +20,7 @@ const About = () => {
                     src="/img/pink-masjid.jpg"
                     alt="Interior of the Pink Masjid in Iran"
                     width="24.5%"
-                    //em used for height as it had best sizing
-                    height="400em"
+                    height="400em" //Adjust this value if needed
                 />
                 <img
                     src="/img/pattern.jpg"
