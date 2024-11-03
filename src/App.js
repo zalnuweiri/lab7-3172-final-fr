@@ -12,7 +12,6 @@ import NoPage from "./NoPage";
 //import reportWebVitals from './reportWebVitals';
 
 export default function App() {
-  const [visitCount, setVisitCount] = useState(0);
   return (
       <BrowserRouter>
         <Routes>
